@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+  <TextView  
+   android:layout_width="130dp"  
+   android:layout_height="wrap_content"  
+   android:text="教师名称"  
+  />  
+   
+   <TextView  
+   android:layout_width="150dp"  
+   android:layout_height="wrap_content"  
+   android:text="发布日期"  
+  />  
+    
+  <TextView  
+   android:layout_width="fill_parent"  
+   android:layout_height="wrap_content"  
+   android:text="内容"  
+  />  
+     
+</LinearLayout>  
+ <!-- ListView控件 -->  
+<ListView    
+    android:layout_width="fill_parent"   
+    android:layout_height="fill_parent"   
+    android:id="@+id/listView"  
+    />  
+    
+    
+</LinearLayout>

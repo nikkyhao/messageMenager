@@ -34,27 +34,7 @@ public class MainActivity extends Activity {
 
     @SuppressWarnings("deprecation")
     public void addData(View source) {
-	Messages message = new Messages();
-	Teacher yangyuli = new Teacher(); yangyuli.setObjectId("91353110f9");
-	message.setTeacher(yangyuli);
-	message.setRelease_date(new BmobDate(new Date()));
-	message.setExecute_Date(new BmobDate(new Date(115,6,24)));
-	message.setContent("晚上啪啪啪");
-	Group group = new Group();
-	group.setObjectId("c22cf134a3");
-	message.setGroup(group);
-	message.save(this, new SaveListener() {
-
-	    @Override
-	    public void onSuccess() {
-		System.out.println("save success");
-	    }
-	    
-	    @Override
-	    public void onFailure(int code, String msg) {
-		System.out.println("save failure");
-	    }
-	});
+	
     }
     public void toListActivity(View source){
 	

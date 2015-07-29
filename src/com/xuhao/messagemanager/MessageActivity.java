@@ -1,7 +1,5 @@
 package com.xuhao.messagemanager;
 
-import javax.security.auth.PrivateCredentialPermission;
-
 import android.R.string;
 import android.app.Activity;
 import android.os.Bundle;
